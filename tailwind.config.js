@@ -17,14 +17,14 @@ module.exports = {
           darker: '#997200'
         }
       },
+      animation: {
+        wiggle: "wiggle 300ms ease-in-out 3"
+      },
       keyframes: {
         wiggle: {
           "0%, 100%": { transform: "rotate(-6deg)" },
           "50%": { transform: "rotate(6deg)" }
         }
-      },
-      animation: {
-        wiggle: "wiggle 300ms ease-in-out 2"
       }
     },
   },
